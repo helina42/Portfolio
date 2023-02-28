@@ -40,9 +40,9 @@ body {
   color: #6070ff;
   width: 100%;
   background-color: #fff;
-  margin-bottom: 10px;
-  padding-right: 20px;
-  justify-content: space-between;
+  margin-bottom: -1px;
+  gap: 62%;
+  min-width: 375px;
 }
 
 .vectorb {
@@ -163,6 +163,7 @@ a {
   background: #fff;
   margin-top: 120px;
   align-content: right;
+  min-width: 375px;
 }
 
 .middle-section2 {
@@ -178,6 +179,7 @@ a {
   background: #fff;
   margin-top: 120px;
   align-content: right;
+  min-width: 375px;
 }
 
 .tonic {
@@ -320,6 +322,7 @@ ul ul {
   background: #fff;
   height: auto;
   border-radius: 12px 70px 12px 12px;
+  min-width: 375px;
 }
 
 .header h3 {
@@ -376,6 +379,7 @@ ul ul {
   background-repeat: no-repeat;
   background-position: absolute;
   background-size: 100% 100%;
+  min-width: 375px;
 }
 
 .contact-head {
@@ -425,6 +429,11 @@ textarea::placeholder {
   border-radius: 8px;
   border: none;
   margin-bottom: 45px;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .contact-button:hover {
@@ -458,15 +467,22 @@ textarea::placeholder {
     font-size: 1.1em;
     align-items: flex-start;
     color: #6070ff;
-    width: 100%;
+  
+  }
+
+  .tool{
+    display: flex;
     justify-content: space-between;
     padding-left: 155px;
     padding-right: 155px;
-    background: #fff;
-    gap: 20%;
-    margin: 0;
+    gap: 45em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    align-items: flex-start;
+    color: #6070ff;
   }
-
+  
   .toolbar p {
     color: #6070ff;
     padding-left: 60px;
@@ -482,7 +498,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    width: 100em;
     background-color: #fff;
     background-image: url(./Images/Header\ bg@2x.png);
     background-repeat: no-repeat;
@@ -605,12 +621,12 @@ textarea::placeholder {
     justify-content: flex-start;
     margin: 16px;
     gap: 1%;
-    width: 90%;
     border-radius: 12px;
     box-sizing: border-box;
     border: 1px solid #dfe1e6;
     background: #fff;
     margin-top: 120px;
+    width: 100em;
   }
 
   .middle-section2 {
@@ -619,7 +635,7 @@ textarea::placeholder {
     align-items: flex-start;
     margin: 16px;
     gap: 1%;
-    width: 90%;
+    width: 100em;
     border-radius: 12px;
     box-sizing: border-box;
     border: 1px solid #dfe1e6;
@@ -774,7 +790,7 @@ textarea::placeholder {
     height: auto;
     border-radius: 0 70px 0 0;
     padding-bottom: 120px;
-    width: 100%;
+    width: 100em;
     gap: 0%;
   }
 
@@ -887,6 +903,7 @@ textarea::placeholder {
     background-repeat: no-repeat;
     background-position: absolute;
     background-size: 100% 100%;
+    width: 100em;
   }
 
   .formcenter {
@@ -939,6 +956,7 @@ textarea::placeholder {
   }
 
   .contact-button {
+    font-family: "Poppins", sans-serif;
     padding: 12px 16px;
     background: #fff;
     border-radius: 8px;

@@ -468,7 +468,7 @@ textarea::placeholder {
     align-items: flex-start;
     color: #6070ff;
   }
-  
+ 
   .tool {
     display: flex;
     justify-content: space-between;
@@ -481,7 +481,7 @@ textarea::placeholder {
     align-items: flex-start;
     color: #6070ff;
   }
-  
+ 
   .toolbar p {
     color: #6070ff;
     padding-left: 60px;

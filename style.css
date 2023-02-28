@@ -467,10 +467,9 @@ textarea::placeholder {
     font-size: 1.1em;
     align-items: flex-start;
     color: #6070ff;
-  
   }
-
-  .tool{
+  
+  .tool {
     display: flex;
     justify-content: space-between;
     padding-left: 155px;

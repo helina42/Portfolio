@@ -863,14 +863,12 @@ textarea::placeholder {
     flex-direction: row;
     align-items: center;
     margin-left: 0;
-    transition: ease-in-out;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
   }
 
   .buttonr:hover {
     background: #6070ff;
     border: 1px solid;
-    transform: scale(1.1);
   }
 
   .contact-head {
@@ -882,7 +880,8 @@ textarea::placeholder {
   }
 
   .contact-info {
-    text-align: center;
+    display: grid;
+    place-items: center;
     width: 569px;
     height: 102px;
     font-weight: 400;

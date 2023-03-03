@@ -312,7 +312,7 @@ h1 {
 .buttonr:hover {
   background: #6070ff;
   border: 1px solid;
- transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 ul ul {

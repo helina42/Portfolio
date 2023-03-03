@@ -297,7 +297,8 @@ h1 {
   font-weight: 510;
   color: #396df2;
   padding: 21px;
-  transition-duration: 0.4s;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
   border-radius: 8px;
   box-sizing: border-box;
   width: 162px;
@@ -311,6 +312,7 @@ h1 {
 .buttonr:hover {
   background: #6070ff;
   border: 1px solid;
+ transform: scale(1.1);
 }
 
 ul ul {

@@ -7,7 +7,7 @@
   
   <br/>
 
-  <h3><b>Portfolio setup and Desktop</b></h3>
+  <h3><b>Portfolio setup</b></h3>
 
 </div>
 

@@ -105,7 +105,7 @@ Deployment of portfolio to github pages
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]( https://helina42.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,9 +213,8 @@ Example command:
 --->
 
 ### Deployment
-```sh
- This project is deployed at github pages you can find it at: 
-```
+This project is deployed at github pages you can find it at: https://helina42.github.io/Portfolio/
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -229,7 +228,7 @@ Example command:
 👤 **Helina Abebe Alebachew**
 
 - GitHub: [@helina42](https://github.com/helina42)
-- Website: [@helina42](https://github.com/helina42)
+- Website: https://helina42.github.io/Portfolio/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

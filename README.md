@@ -37,7 +37,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio setup and Desktop] <a name="about-project"></a>
+# 📖 [Portfolio setup] <a name="about-project"></a>
 
 > This project for learning and master all of the tools and best practices you learned about Linters, Git & GitHub flow and Documenting repo in a professional way. Then through submmission, micronauts understand the workflow of how our future work will be. 
 This project include adding files, using linters, adding specific programs to projects and making an understandable descriptive page. 
@@ -48,7 +48,7 @@ In order to lay out the elements on the page you should use Grid and Flexbox.
 You don't need to implement any functionality that requires JavaScript.
 You must replicate the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
 
-**[Portfolio setup and Desktop]** is an inital design project for a portfolio.
+**[Portfolio setup]** is an inital design project for a portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 

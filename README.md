@@ -213,8 +213,9 @@ Example command:
 --->
 
 ### Deployment
+This project is deployed at github pages you can find it at:
 ```sh
- This project is deployed at github pages you can find it at: 
+ https://helina42.github.io/Portfolio/
 ```
 
 
@@ -229,7 +230,7 @@ Example command:
 👤 **Helina Abebe Alebachew**
 
 - GitHub: [@helina42](https://github.com/helina42)
-- Website: [@helina42](https://github.com/helina42)
+- Website: https://helina42.github.io/Portfolio/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-.toolbar p {
+.toolbar h2 {
   color: #6070ff;
   padding-left: 20px;
   white-space: nowrap;
@@ -227,7 +227,7 @@ a {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #4d5666;
 }
 
 .lang {
@@ -405,6 +405,7 @@ ul ul {
 
 .contact-info {
   text-align: center;
+  margin-bottom: 45px;
 }
 
 .contact-form {
@@ -490,7 +491,7 @@ textarea::placeholder {
   }
 
   .toolbar p {
-    color: #0F27FF;
+    color: #0f27ff;
     padding-left: 60px;
     overflow: hidden;
     white-space: nowrap;
@@ -546,7 +547,7 @@ textarea::placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 1.2em;
-    color: #0F27FF;
+    color: #0f27ff;
     margin: 0;
   }
 
@@ -571,7 +572,7 @@ textarea::placeholder {
   }
 
   .vectorb a {
-    color: #0F27FF;
+    color: #0f27ff;
   }
 
   .sidep {
@@ -683,7 +684,7 @@ textarea::placeholder {
     font-weight: 600;
     font-size: 17px;
     line-height: 16px;
-    color: #7a869a;
+    color: #4d5666;
   }
 
   .lang {
@@ -692,7 +693,7 @@ textarea::placeholder {
     display: flex;
     padding: 0;
     gap: 5%;
-    color: #6070ff;
+    color: #0f27ff;
     margin-left: 0;
     justify-content: flex-start;
   }
@@ -713,7 +714,7 @@ textarea::placeholder {
     margin: 0;
     margin-top: 20px;
     margin-bottom: 80px;
-    color: #6070ff;
+    color: #0f27ff;
   }
 
   .sees {
@@ -893,6 +894,7 @@ textarea::placeholder {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    color: #fff;
   }
 
   .form {
@@ -905,7 +907,7 @@ textarea::placeholder {
     box-sizing: border-box;
     padding: 14px;
     margin-top: 0;
-    background: #6070ff;
+    background: #0f33ff;
     height: auto;
     color: #fff;
     background-image: url(./Images/cf.png);
@@ -968,7 +970,7 @@ textarea::placeholder {
     background: #fff;
     border-radius: 8px;
     border: none;
-    color: #6070ff;
+    color: #0f27ff;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;

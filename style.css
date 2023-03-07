@@ -490,7 +490,7 @@ textarea::placeholder {
   }
 
   .toolbar p {
-    color: #6070ff;
+    color: #0F27FF;
     padding-left: 60px;
     overflow: hidden;
     white-space: nowrap;
@@ -546,7 +546,7 @@ textarea::placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 1.2em;
-    color: #7f8cff;
+    color: #0F27FF;
     margin: 0;
   }
 
@@ -571,7 +571,7 @@ textarea::placeholder {
   }
 
   .vectorb a {
-    color: #6070ff;
+    color: #0F27FF;
   }
 
   .sidep {

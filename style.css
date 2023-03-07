@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 body {
-  min-height: 100%;
-  max-width: 100%;
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
-  overflow-x: hidden;
 }
 
 * {
@@ -15,6 +12,7 @@ body {
 .toolbar p {
   color: #6070ff;
   padding-left: 20px;
+  white-space: nowrap;
 }
 
 .headline {
@@ -38,11 +36,23 @@ body {
   font-size: 1.1em;
   align-items: center;
   color: #6070ff;
-  width: 100%;
   background-color: #fff;
   margin-bottom: -1px;
-  gap: 62%;
+  gap: 50%;
   min-width: 375px;
+}
+
+.tool {
+  display: flex;
+  gap: 11em;
+  min-width: 18px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1em;
+  align-items: center;
+  color: #6070ff;
 }
 
 .vectorb {
@@ -92,11 +102,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
-  width: 85%;
   margin-left: 20px;
-  margin-right: 0;
-  margin-bottom: 5px;
-  height: 70%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  min-width: 300px;
 }
 
 .info-abt {
@@ -288,7 +297,8 @@ h1 {
   font-weight: 510;
   color: #396df2;
   padding: 21px;
-  transition-duration: 0.4s;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
   border-radius: 8px;
   box-sizing: border-box;
   width: 162px;
@@ -302,6 +312,7 @@ h1 {
 .buttonr:hover {
   background: #6070ff;
   border: 1px solid;
+  transform: scale(1.1);
 }
 
 ul ul {
@@ -434,6 +445,7 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-button:hover {
@@ -467,21 +479,12 @@ textarea::placeholder {
     font-size: 1.1em;
     align-items: flex-start;
     color: #6070ff;
+    min-width: 375px;
+    background-color: #fff;
+    width: 100%;
+    gap: 61%;
   }
-
-  .tool {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 155px;
-    padding-right: 155px;
-    gap: 45em;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.1em;
-    align-items: flex-start;
-    color: #6070ff;
-  }
-
+  
   .toolbar p {
     color: #6070ff;
     padding-left: 60px;
@@ -497,7 +500,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100em;
+    width: 100%;
     background-color: #fff;
     background-image: url(./Images/Header\ bg@2x.png);
     background-repeat: no-repeat;
@@ -532,6 +535,7 @@ textarea::placeholder {
     height: 98px;
     margin-left: 0;
     width: 100%;
+    margin-bottom: 0;
   }
 
   .connect {
@@ -625,7 +629,9 @@ textarea::placeholder {
     border: 1px solid #dfe1e6;
     background: #fff;
     margin-top: 120px;
-    width: 100em;
+    width: 80%;
+    margin-left: 122px;
+    margin-right: 122px;
   }
 
   .middle-section2 {
@@ -634,12 +640,14 @@ textarea::placeholder {
     align-items: flex-start;
     margin: 16px;
     gap: 1%;
-    width: 100em;
+    width: 80%;
     border-radius: 12px;
     box-sizing: border-box;
     border: 1px solid #dfe1e6;
     background: #fff;
     margin-top: 120px;
+    margin-left: 122px;
+    margin-right: 122px;
   }
 
   .tonic {
@@ -682,6 +690,7 @@ textarea::placeholder {
     gap: 5%;
     color: #6070ff;
     margin-left: 0;
+    justify-content: flex-start;
   }
 
   .hcj {
@@ -789,7 +798,7 @@ textarea::placeholder {
     height: auto;
     border-radius: 0 70px 0 0;
     padding-bottom: 120px;
-    width: 100em;
+    width: 100%;
     gap: 0%;
   }
 
@@ -848,7 +857,6 @@ textarea::placeholder {
     font-weight: 510;
     color: #396df2;
     padding: 21px;
-    transition-duration: 0.4s;
     border-radius: 8px;
     box-sizing: border-box;
     width: 162px;
@@ -857,6 +865,7 @@ textarea::placeholder {
     flex-direction: row;
     align-items: center;
     margin-left: 0;
+    transition-duration: 0.4s;
   }
 
   .buttonr:hover {
@@ -869,17 +878,14 @@ textarea::placeholder {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    margin-left: 320px;
     margin-top: 142px;
-    margin-right: 320px;
   }
 
   .contact-info {
-    text-align: center;
+    display: grid;
+    place-items: center;
     width: 569px;
     height: 102px;
-    margin-left: 436px;
-    margin-right: 436px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -902,7 +908,7 @@ textarea::placeholder {
     background-repeat: no-repeat;
     background-position: absolute;
     background-size: 100% 100%;
-    width: 100em;
+    width: 100%;
   }
 
   .formcenter {
@@ -919,9 +925,7 @@ textarea::placeholder {
   }
 
   .contact-description {
-    margin-left: 320px;
     margin-top: 142px;
-    margin-right: 320px;
   }
 
   input {
@@ -969,6 +973,7 @@ textarea::placeholder {
 
   .btnsize {
     align-self: center;
+    margin-bottom: 142px;
   }
 
   .contact-button:hover {

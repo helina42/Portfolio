@@ -485,7 +485,7 @@ textarea::placeholder {
     gap: 61%;
   }
 
-.toolbar p {
+  .toolbar p {
     color: #6070ff;
     padding-left: 60px;
     overflow: hidden;

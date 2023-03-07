@@ -228,6 +228,13 @@ This project is deployed at github pages you can find it at: https://helina42.gi
 - GitHub: [@helina42](https://github.com/helina42)
 - Website: https://helina42.github.io/Portfolio/
 
+👤 **Peter Onyam**
+
+- GitHub: [@peteronyam](https://github.com/peteronyam)
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -271,6 +278,8 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank Microverse for giving me the chance to test myself during this project!.
+> I would like to thank Peter Onyam for his collaboration on my project.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

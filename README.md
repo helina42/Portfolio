@@ -86,6 +86,7 @@ Responsive deisign of a portfolio.
 Usage of flexbox
 Responsive Contact form 
 Responsive deisign of a Desktop portfolio
+Accessibility interaction modified
 
 - **[No linter errors]**
 - **[Correct (GitHub flow)]**
@@ -94,6 +95,7 @@ Responsive deisign of a Desktop portfolio
 - **[Usage of flexbox]**
 - **[Responsive Contact form]**
 - **[Responsive deisign of a Desktop portfolio]**
+- **[Accessibility interaction modified]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

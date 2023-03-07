@@ -7,7 +7,7 @@
   
   <br/>
 
-  <h3><b>Portfolio setup and Desktop</b></h3>
+  <h3><b>Portfolio setup</b></h3>
 
 </div>
 
@@ -37,7 +37,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio setup and Desktop] <a name="about-project"></a>
+# 📖 [Portfolio setup] <a name="about-project"></a>
 
 > This project for learning and master all of the tools and best practices you learned about Linters, Git & GitHub flow and Documenting repo in a professional way. Then through submmission, micronauts understand the workflow of how our future work will be. 
 This project include adding files, using linters, adding specific programs to projects and making an understandable descriptive page. 
@@ -48,7 +48,7 @@ In order to lay out the elements on the page you should use Grid and Flexbox.
 You don't need to implement any functionality that requires JavaScript.
 You must replicate the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
 
-**[Portfolio setup and Desktop]** is an inital design project for a portfolio.
+**[Portfolio setup]** is an inital design project for a portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -88,6 +88,7 @@ Responsive Contact form
 Responsive deisign of a Desktop portfolio
 Accessibility interaction modified
 
+
 - **[No linter errors]**
 - **[Correct (GitHub flow)]**
 - **[Proper documented work]**
@@ -106,7 +107,7 @@ Accessibility interaction modified
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]( https://helina42.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,22 +148,14 @@ Example command:
 -Set up a linter for HTML and CSS and make sure that any files that are not relevant are ignored by git.<br>
 -Add descriptive README file to your project - please use this template but remember to customize it to your project.<br>
 -Add 3 files (each one in a separate commit):<br>
-        -A .html file that includes a header with the text "Hello Microverse!". Use h1 tag for that.<br>
-        -A .css file that includes one class with styles for your header (make it in your favorite color).<br>
-        
+        -A .html file.<br>
+        -A .css file..<br>        
 -Make sure that the last file is actually ignored by git and is not present in your GitHub repository.<br>
--Open a pull request<br>
--Set up a new repository and prepare it for development using best practices (e.g. linters).
--Build the first 2 sections of the mobile website using the template you chose in the previous step.
--In order to lay out the elements on the page you should use flexbox in all 2 sections.
--Only use HTML & CSS (no JavaScript needed)
--Your website should look exactly like the design (e.g. font, colors, images, text, margins) using the templates in Figma.
--Implement the button interactions (i.e. hover, etc.).
--he website should be responsive, following these breakpoints:
--Minimum mobile screen size should be 375px
--Minimum desktop screen size should be 768px
+-Build mobile and desktop website using the template from figma.
+-The website should be responsive, following these breakpoints:
+  -Minimum mobile screen size should be 375px
+  -Minimum desktop screen size should be 768px
 -Use responsive values in your CSS rules, like percentages (i.e. width: 80%), instead of pixels
--Contact form to portfolio is added.
 -Design for Desktop portfolio is added.
 
 
@@ -222,16 +215,7 @@ Example command:
 --->
 
 ### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+This project is deployed at github pages you can find it at: https://helina42.github.io/Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,9 +228,11 @@ Example:
 👤 **Helina Abebe Alebachew**
 
 - GitHub: [@helina42](https://github.com/helina42)
+
 - 👤 **Chandan Gupta**
 
 - GitHub: [@Chandan Gupta](https://github.com/Chandan-devs-tech)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -257,10 +243,11 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [Add about perivious work ] **[new_feature_1]**
-- [Add more about the person ] **[new_feature_2]**
-- [Add remaining contact form and finish mobile version ] **[new_feature_3]**
-- [Add links to connect the button on the Desktop portfolio] **[new_feature_3]**
+- [Evaluate accessibility] **[new_feature_1]**
+- [Mobile menu ] **[new_feature_2]**
+- [Details modal ] **[new_feature_3]**
+- [Validate contact form ] **[new_feature_4]**
+- [Preserve data in the browser] **[new_feature_5]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -290,7 +277,9 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank Microverse for giving me the chance to test myself during this project!.
+
 > I would like to thank Chandan Gupta for contributing to this project.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

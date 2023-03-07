@@ -244,6 +244,9 @@ Example:
 👤 **Helina Abebe Alebachew**
 
 - GitHub: [@helina42](https://github.com/helina42)
+- 👤 **Chandan Gupta**
+
+- GitHub: [@Chandan Gupta](https://github.com/Chandan-devs-tech)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -287,6 +290,7 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank Microverse for giving me the chance to test myself during this project!.
+> I would like to thank Chandan Gupta for contributing to this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -86,7 +86,8 @@ Responsive deisign of a portfolio.
 Usage of flexbox
 Responsive Contact form 
 Responsive deisign of a Desktop portfolio
-Deployment of portfolio to github pages 
+Accessibility interaction modified
+
 
 - **[No linter errors]**
 - **[Correct (GitHub flow)]**
@@ -95,6 +96,7 @@ Deployment of portfolio to github pages
 - **[Usage of flexbox]**
 - **[Responsive Contact form]**
 - **[Responsive deisign of a Desktop portfolio]**
+- **[Accessibility interaction modified]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -226,13 +228,10 @@ This project is deployed at github pages you can find it at: https://helina42.gi
 👤 **Helina Abebe Alebachew**
 
 - GitHub: [@helina42](https://github.com/helina42)
-- Website: https://helina42.github.io/Portfolio/
 
-👤 **Peter Onyam**
+- 👤 **Chandan Gupta**
 
-- GitHub: [@peteronyam](https://github.com/peteronyam)
-
-
+- GitHub: [@Chandan Gupta](https://github.com/Chandan-devs-tech)
 
 
 
@@ -278,7 +277,8 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank Microverse for giving me the chance to test myself during this project!.
-> I would like to thank Peter Onyam for his collaboration on my project.
+
+> I would like to thank Chandan Gupta for contributing to this project.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

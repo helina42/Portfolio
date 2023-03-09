@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-.toolbar p {
+.toolbar h2 {
   color: #6070ff;
   padding-left: 20px;
   white-space: nowrap;
@@ -29,6 +29,10 @@ body {
   min-width: 375px;
 }
 
+.hambruger {
+  margin-right: 26px;
+}
+
 .toolbar {
   display: flex;
   font-style: normal;
@@ -40,6 +44,7 @@ body {
   margin-bottom: -1px;
   gap: 50%;
   min-width: 375px;
+  justify-content: space-between;
 }
 
 .tool {
@@ -222,7 +227,7 @@ a {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #4d5666;
 }
 
 .lang {
@@ -400,6 +405,7 @@ ul ul {
 
 .contact-info {
   text-align: center;
+  margin-bottom: 45px;
 }
 
 .contact-form {
@@ -482,11 +488,10 @@ textarea::placeholder {
     min-width: 375px;
     background-color: #fff;
     width: 100%;
-    gap: 61%;
   }
 
   .toolbar p {
-    color: #6070ff;
+    color: #0f27ff;
     padding-left: 60px;
     overflow: hidden;
     white-space: nowrap;
@@ -506,13 +511,13 @@ textarea::placeholder {
     background-repeat: no-repeat;
     border-radius: 0 0 0 70px;
     background-position: absolute;
-    background-size: 100% 100%;
+    background-size: 100%;
     margin: 0 0 0 0;
   }
 
   .front {
     width: 55%;
-    margin: 359px 260px 435px;
+    margin: 40px 200px 50px;
   }
 
   .header {
@@ -542,7 +547,7 @@ textarea::placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 1.2em;
-    color: #7f8cff;
+    color: #0f27ff;
     margin: 0;
   }
 
@@ -563,11 +568,11 @@ textarea::placeholder {
     color: #6070ff;
     background-color: #fff;
     padding-top: 17px;
-    padding-right: 50px;
+    padding-right: 100px;
   }
 
   .vectorb a {
-    color: #6070ff;
+    color: #0f27ff;
   }
 
   .sidep {
@@ -679,7 +684,7 @@ textarea::placeholder {
     font-weight: 600;
     font-size: 17px;
     line-height: 16px;
-    color: #7a869a;
+    color: #4d5666;
   }
 
   .lang {
@@ -688,7 +693,7 @@ textarea::placeholder {
     display: flex;
     padding: 0;
     gap: 5%;
-    color: #6070ff;
+    color: #0f27ff;
     margin-left: 0;
     justify-content: flex-start;
   }
@@ -709,7 +714,7 @@ textarea::placeholder {
     margin: 0;
     margin-top: 20px;
     margin-bottom: 80px;
-    color: #6070ff;
+    color: #0f27ff;
   }
 
   .sees {
@@ -889,6 +894,7 @@ textarea::placeholder {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    color: #fff;
   }
 
   .form {
@@ -901,13 +907,13 @@ textarea::placeholder {
     box-sizing: border-box;
     padding: 14px;
     margin-top: 0;
-    background: #6070ff;
+    background: #0f33ff;
     height: auto;
     color: #fff;
     background-image: url(./Images/cf.png);
     background-repeat: no-repeat;
     background-position: absolute;
-    background-size: 100% 100%;
+    background-size: 100%;
     width: 100%;
   }
 
@@ -925,7 +931,7 @@ textarea::placeholder {
   }
 
   .contact-description {
-    margin-top: 142px;
+    margin-top: 30px;
   }
 
   input {
@@ -964,7 +970,7 @@ textarea::placeholder {
     background: #fff;
     border-radius: 8px;
     border: none;
-    color: #6070ff;
+    color: #0f27ff;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;

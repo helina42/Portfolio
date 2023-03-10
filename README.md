@@ -108,6 +108,7 @@ Accessibility interaction modified
 > Add a link to your deployed project.
 
 - [Live Demo Link]( https://helina42.github.io/Portfolio/)
+- [Loom Video link](https://www.loom.com/share/d4545bed895a4793b1d1e5914250891b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

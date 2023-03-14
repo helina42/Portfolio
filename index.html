@@ -10,13 +10,30 @@
 </head>
 <body>
 
+  <section class="entire">
+  <section >
+    
+  
+  </section>
+
 <section class="container">
+    <div class="menu-popup hidden" id="popup"> 
+      <div onclick="popmenu()" class="close-mobile-menu" id="close-mobile-menu">
+        <img src="./Icons/Icon - Cancel.png" alt="close menu button"/>
+      </div>   
+    <div class="menu-li">
+        <nav><a href="#Portfolio" onclick="popmenu()">Portfolio</a></nav>
+        <nav><a href="#about"onclick="popmenu()">About</a></nav>
+        <nav><a href="#contact"onclick="popmenu()">Contact</a></nav>
+      </div>
+    </div>
+
   <header class="toolbar">
     <a href="#">
       <h2>My logo</h2>
     </a>
     <div class="vector">
-      <nav class ="hambruger"><a href="#"><img alt="Hambruger Icon" src="./Icons/Union.png"></a></nav>
+      <nav  id = "mobile-menu-open" class ="hambruger"><a onclick="popmenu()" href="#"><img alt="Hambruger Icon" src="./Icons/Union.png"></a></nav>
     </div>
     
     <div class="vectorb">
@@ -42,8 +59,9 @@
           </ul>
         </div>
     </section>
+  
 
-    <section class="middle-section1">
+    <section id ="Portfolio" class="middle-section1">
       <div class="sidep">
         <img class="tonic" alt="Tonic" src="./Work/Tonic.png">
       </div>
@@ -242,7 +260,7 @@
       </div>
     </section>
 
-    <section class="about-sec">
+    <section class="about-sec" id="about">
       <div class="sidea">
       <div >
         <h3 class="abt">About Myself</h3>
@@ -293,7 +311,7 @@
       </ul>
     </div>
     </section>
-    <section class="form">
+    <section class="form" id="contact">
       <div class="contact-description">
         <h3 class="contact-head">Contact me</h3>
         <p class="contact-info">If you have an application you are interested in developing, a feature that you need
@@ -312,6 +330,8 @@
       </form>   
     </section>
   </div>
+</section>
+<script type ="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>

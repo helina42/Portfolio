@@ -23,6 +23,97 @@ body {
   white-space: nowrap;
 }
 
+.blur {
+  mix-blend-mode: multiply;
+  background: #c1c7d0;
+  backdrop-filter: blur(6px);
+}
+
+.close {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(6px);
+  align-items: start;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+  width: 343px;
+  height: 713px;
+  border-radius: 12px;
+}
+
+.headert {
+  display: flex;
+  flex-direction: row;
+  font-size: 21px;
+}
+
+.headert img {
+  width: 24px;
+  height: 24px;
+  margin: 20px 0 0 20px;
+}
+
+#titlew {
+  font-size: 1.5em;
+  font-style: bold;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  width: 100%;
+  margin: 10px 10px 0 0;
+}
+
+.langw {
+  font-style: normal;
+  font-size: 0.5em;
+  display: flex;
+  padding: 0;
+  gap: 8%;
+  width: 57%;
+  color: #6070ff;
+  margin: 0;
+}
+
+.work {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.work > p {
+  margin: 0;
+  padding: 0;
+}
+
+.detailsw {
+  font-style: normal;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  gap: 3%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px solid black;
+  width: 236px;
+  height: 32px;
+}
+
 .menu-popup {
   background-image: url(./Images/Overlay.png);
   background-size: cover;
@@ -70,14 +161,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 auto;
   width: 100%;
   background-color: #fff;
   background-image: url(Images/header-shapes-mobile.png);
   background-repeat: no-repeat;
-  margin-top: 0;
+  padding: 20px;
   border-radius: 1px 1px 1px 70px;
-  min-width: 375px;
 }
 
 .hambruger {
@@ -94,7 +183,6 @@ a {
   background-color: #fff;
   margin-bottom: -1px;
   gap: 50%;
-  min-width: 375px;
   justify-content: space-between;
 }
 
@@ -122,8 +210,6 @@ a {
   display: flex;
   align-items: center;
   color: #172b4d;
-  margin-left: 16px;
-  margin-top: 120px;
 }
 
 #title {
@@ -133,10 +219,7 @@ a {
   display: flex;
   align-items: center;
   color: #172b4d;
-  width: 80%;
-  margin-left: 16px;
-  margin-top: 10px;
-  margin-bottom: 1px;
+  width: 100%;
 }
 
 .abt {
@@ -157,10 +240,6 @@ a {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  min-width: 300px;
 }
 
 .info-abt {
@@ -220,31 +299,28 @@ li {
   border-radius: 12px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
-  background: #fff;
   margin-top: 120px;
   align-content: right;
 }
 
-.middle-section2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 16px;
-  gap: 50%;
-  width: 90%;
-  border-radius: 12px;
+.card {
   box-sizing: border-box;
+  border-radius: 12px;
   border: 1px solid #dfe1e6;
   background: #fff;
-  margin-top: 120px;
-  align-content: right;
+  width: 100%;
+  margin-bottom: 88px;
+  padding: 20px;
+}
+
+.sidew {
+  align-content: start;
 }
 
 .tonic {
   align-items: center;
-  margin-right: 16px;
-  margin-left: 16px;
-  margin-top: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .details {
@@ -257,7 +333,6 @@ li {
   gap: 3%;
   margin-top: 1px;
   margin-bottom: 1px;
-  margin-left: 20px;
 }
 
 .canopy {
@@ -279,29 +354,19 @@ li {
   font-size: 1em;
   display: flex;
   padding: 0;
-  justify-content: space-around;
+  gap: 8%;
   width: 57%;
   color: #6070ff;
-  margin: 0;
-  margin-left: 10px;
 }
 
 .hcj {
   background-color: #ebebff;
   border-radius: 8px;
-  padding-left: 7px;
-  padding-right: 7px;
   display: flex;
 }
 
 .hcj p {
   margin: 0;
-}
-
-.see {
-  margin: 5%;
-  margin-top: 20px;
-  margin-left: 20px;
 }
 
 .button {
@@ -378,7 +443,7 @@ ul ul {
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
   padding: 14px;
-  margin-top: 30%;
+  margin-top: 8%;
   background: #fff;
   height: auto;
   border-radius: 12px 70px 12px 12px;

@@ -26,18 +26,18 @@ body {
 .menu-popup {
   background-image: url(./Images/Overlay.png);
   background-repeat: no-repeat;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   mix-blend-mode: multiply;
   display: flex;
   flex-direction: column;
-  width: 106%;
-  padding: 0;
-  margin: 0;
-  height: 120vh;
   backdrop-filter: blur(6px);
   align-items: start;
   font-style: normal;
-  font-weight: 600px;
+  font-weight: bold;
   font-size: 32px;
   line-height: 44px;
 }
@@ -520,7 +520,14 @@ textarea::placeholder {
 }
 
 .contact-description {
-  z-index: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  width: 90%;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (min-width: 768px) {

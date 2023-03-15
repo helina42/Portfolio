@@ -15,18 +15,18 @@ const cards = [
       BackendDev: 'Backend Dev',
     },
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     technologies:
-        {
-          html: 'html',
-          css: 'css',
-          js: 'JavaScript',
-        },
+    {
+      html: 'html',
+      css: 'css',
+      js: 'JavaScript',
+    },
     buttons:
-        {
-          seelive: '#',
-          seesource: '#',
-        },
+    {
+      seelive: '#',
+      seesource: '#',
+    },
   },
   {
     id: 1,
@@ -39,18 +39,18 @@ const cards = [
       BackendDev: 'Backend Dev',
     },
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     technologies:
-        {
-          html: 'html',
-          css: 'css',
-          js: 'JavaScript',
-        },
+    {
+      html: 'html',
+      css: 'css',
+      js: 'JavaScript',
+    },
     buttons:
-        {
-          seelive: '#',
-          seesource: '#',
-        },
+    {
+      seelive: '#',
+      seesource: '#',
+    },
   },
   {
     id: 2,
@@ -63,18 +63,18 @@ const cards = [
       BackendDev: 'Backend Dev',
     },
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     technologies:
-        {
-          html: 'html',
-          css: 'css',
-          js: 'JavaScript',
-        },
+    {
+      html: 'html',
+      css: 'css',
+      js: 'JavaScript',
+    },
     buttons:
-        {
-          seelive: '#',
-          seesource: '#',
-        },
+    {
+      seelive: '#',
+      seesource: '#',
+    },
   },
   {
     id: 3,
@@ -87,18 +87,18 @@ const cards = [
       BackendDev: 'Backend Dev',
     },
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     technologies:
-        {
-          html: 'html',
-          css: 'css',
-          js: 'JavaScript',
-        },
+    {
+      html: 'html',
+      css: 'css',
+      js: 'JavaScript',
+    },
     buttons:
-        {
-          seelive: '#',
-          seesource: '#',
-        },
+    {
+      seelive: '#',
+      seesource: '#',
+    },
   },
 ];
 function showProject() {
@@ -111,7 +111,7 @@ function showProject() {
 </div>
 
 <div class="sidew1">
-  <h2 class="header" id="title">${cards[i].name}</h2>
+  <h2 class="proj-header" id="title">${cards[i].name}</h2>
 <ul class="details">
   <li>
     <div class="canopy">
@@ -119,7 +119,7 @@ function showProject() {
     </div>
   </li>
   <li>
-    <div class="counter"><img alt="" src="${cards[i].img1}"></div>
+    <div class="counter"><img alt="" src="./Icons/Counter.png"></div>
   </li>
   <li>
     <div class="spec">
@@ -159,15 +159,18 @@ function showProject() {
   projectCards.appendChild();
 }
 // eslint-disable-next-line no-unused-vars
+function addBlur() {
+  const blur = document.getElementsByClassName('.container');
+  blur.classList.toggle('blur');
+}
+
 function togglemobilepopup() {
   const mobilePopup = document.querySelector('.close');
-  // const blur = document.getElementsByClassName('.entire');
-  // blur.classList.toggle('blur');
   mobilePopup.classList.toggle('hidden');
   showProject();
 }
-
 // eslint-disable-next-line no-unused-vars
+
 function popwork(id) {
   const mobilePopup = document.querySelector('#card-work');
   mobilePopup.innerHTML = `<div class ="close" >
@@ -184,7 +187,7 @@ function popwork(id) {
       </div>
     </li>
     <li>
-      <div class="counter"><img alt="" src="./Icons/Counter.png"></div>
+      <img class="counter"  alt="" src="./Icons/Counter.png">
     </li>
     <li>
       <div class="spec">
@@ -192,7 +195,7 @@ function popwork(id) {
       </div>
     </li>
     <li>
-      <div class="counter"><img alt="" src="./Icons/Counter.png"></div>
+      <img alt="" class="counter" src="./Icons/Counter.png">
     </li>
     <li>
       <div class="spec">
@@ -201,7 +204,7 @@ function popwork(id) {
     </li>
   </ul>
 </div>
-  <div>
+  <div class="side-pop">
     <img class="tonic" alt= " ${cards[id].alt}" src="${cards[id].image}">
   </div>
     <div class="work">
@@ -218,16 +221,19 @@ function popwork(id) {
       <p>${cards[id].technologies.js}</p>
     </li>
   </ul>
-  <div class="see">
-    <button class="button" type="button"}>
-    <a href='${cards[id].buttons.seelive}'> See Live</a>
-    </button>
-    <button class="button" type="button"}>
-    <a href='${cards[id].buttons.seesource}'>See source </a>
-    </button>
-  </div>
+  <div class="see-pop">
+  <button class="button" type="button"}>
+  <a href='${cards[id].buttons.seelive}'> See Live </a>
+  <img src="./Icons/seeLive.png">
+  </button>
+  <button class="button" type="button"}>
+  <a href='${cards[id].buttons.seesource}'>See source</a>
+  <img src="./Icons/seeSource.png">
+  </button>
+  </div >
   </div>
   `;
-  mobilePopup.classList.toggle('hidden');
   mobilePopup.appendChild();
+  mobilePopup.classList.toggle('hidden');
 }
+

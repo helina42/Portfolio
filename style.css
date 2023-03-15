@@ -3,6 +3,14 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+.entire {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+  width: 100%;
 }
 
 * {
@@ -13,6 +21,49 @@ body {
   color: #6070ff;
   padding-left: 20px;
   white-space: nowrap;
+}
+
+.menu-popup {
+  background-image: url(./Images/Overlay.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(6px);
+  align-items: start;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-li > nav > a {
+  color: #fff;
+  padding-left: 40px;
+}
+
+.menu-li nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.close-mobile-menu {
+  align-self: end;
+  padding-right: 40px;
+}
+
+.hidden {
+  display: none;
 }
 
 .headline {
@@ -71,7 +122,6 @@ body {
   display: flex;
   align-items: center;
   color: #172b4d;
-  width: 100%;
   margin-left: 16px;
   margin-top: 120px;
 }
@@ -160,10 +210,6 @@ li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 .middle-section1 {
   display: flex;
   flex-direction: column;
@@ -177,7 +223,6 @@ a {
   background: #fff;
   margin-top: 120px;
   align-content: right;
-  min-width: 375px;
 }
 
 .middle-section2 {
@@ -193,7 +238,6 @@ a {
   background: #fff;
   margin-top: 120px;
   align-content: right;
-  min-width: 375px;
 }
 
 .tonic {
@@ -474,7 +518,14 @@ textarea::placeholder {
 }
 
 .contact-description {
-  z-index: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  width: 90%;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (min-width: 768px) {

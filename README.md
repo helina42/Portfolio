@@ -230,9 +230,9 @@ This project is deployed at github pages you can find it at: https://helina42.gi
 
 - GitHub: [@helina42](https://github.com/helina42)
 
-- 👤 **Chandan Gupta**
+- 👤 **Adams Bamfo**
 
-- GitHub: [@Chandan Gupta](https://github.com/Chandan-devs-tech)
+- GitHub: [@Adamsbamfo](https://github.com/Adams-Ghub)
 
 
 
@@ -279,7 +279,7 @@ If you like this project...
 
 > I would like to thank Microverse for giving me the chance to test myself during this project!.
 
-> I would like to thank Chandan Gupta for contributing to this project.
+> I would like to thank Adams Bamfo for working on this project.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

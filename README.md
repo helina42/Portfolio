@@ -105,7 +105,6 @@ Accessibility interaction modified
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link]( https://helina42.github.io/Portfolio/)
 - [Loom Video link](https://www.loom.com/share/d4545bed895a4793b1d1e5914250891b)
@@ -224,7 +223,6 @@ This project is deployed at github pages you can find it at: https://helina42.gi
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Helina Abebe Alebachew**
 
@@ -242,7 +240,6 @@ This project is deployed at github pages you can find it at: https://helina42.gi
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [Evaluate accessibility] **[new_feature_1]**
 - [Mobile menu ] **[new_feature_2]**
@@ -267,9 +264,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+
+If you like this project kindly give me a star to show your support!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

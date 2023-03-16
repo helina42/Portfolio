@@ -1,3 +1,5 @@
+const { Action } = require('argparse');
+
 function popmenu() {
   const mobileMenu = document.querySelector('#popup');
   mobileMenu.classList.toggle('hidden');
@@ -281,4 +283,16 @@ function popwork(id) {
   mobilePopup.classList.toggle('hidden');
 
   addBlur();
+}
+function ValidateEmail() {
+  const form = document.querySelector('#form');
+  const userEmail = document.getElementById('email').value;
+  const errmsg = document.querySelector('#error');
+  const letters = /[A-Z]/;
+  form.addEventListener('submit', (event) => {
+    if (userEmail.match(letters)) {
+      event.preventDefault();
+      errmsg.innerHTML = '**You have entered an invalid email address! Please use small letters for the email.**';
+    } else if (!userEmail.match(letters)) { document.querySelector('#form').submit(); }
+  });
 }

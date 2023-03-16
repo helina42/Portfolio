@@ -688,6 +688,12 @@ body > .blur {
   filter: blur(6px);
 }
 
+#error {
+  font-size: 10px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 768px) {
   .toolbar {
     display: flex;

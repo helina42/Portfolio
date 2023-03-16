@@ -30,7 +30,6 @@ body {
 
 .blur {
   mix-blend-mode: multiply;
-  background: #c1c7d0;
   backdrop-filter: blur(6px);
 }
 
@@ -53,14 +52,14 @@ body {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  margin: 15px;
+  margin: 3% auto;
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 20px;
   border: 1px solid black;
-  width: 475px;
-
-  /* min-height: max-content; */
+  width: 94%;
+  height: fit-content;
+  min-height: 94%;
   border-radius: 12px;
   padding: 16px;
   zoom: 65%;
@@ -77,7 +76,7 @@ body {
 }
 
 .see-pop > .press {
-  width: 150px;
+  min-width: 155px;
   height: 48px;
   display: flex;
   flex-direction: row;
@@ -396,11 +395,8 @@ li {
 .side-pop {
   width: 100%;
   padding-top: 20px;
-}
-
-.tonic {
-  align-items: center;
-  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .details {
@@ -681,6 +677,14 @@ textarea::placeholder {
   display: none;
 }
 
+body > .blur {
+  mix-blend-mode: multiply;
+  background: #c1c7d0;
+  transition: 0.2s;
+  -webkit-filter: blur(2px);
+  filter: blur(6px);
+}
+
 @media only screen and (min-width: 768px) {
   .toolbar {
     display: flex;
@@ -803,22 +807,6 @@ textarea::placeholder {
     display: flex;
   }
 
-  /* .sidep img {
-    content: url("./Work/1.png");
-  }
-
-  .sidep2 img {
-    content: url("./Work/2.png");
-  }
-
-  .sidep3 img {
-    content: url("./Work/3.png");
-  }
-
-  .sidep4 img {
-    content: url("./Work/4.png");
-  } */
-
   .sidew1 {
     display: flex;
     flex-direction: column;
@@ -857,6 +845,29 @@ textarea::placeholder {
   .tonic-c {
     width: 37.7vw;
     height: 31vw;
+  }
+
+  #card-work > div > div.side-pop > img.tonic.hide {
+    width: max-content;
+    margin: 0 auto;
+    height: 35vh;
+  }
+
+  .ll > img {
+    width: 3.3vw;
+  }
+
+  .headert > img {
+    width: 1.7vw;
+    height: 1.7vw;
+    align-self: center;
+    margin: 0 0 0 20px;
+  }
+
+  #mob > img {
+    width: max-content;
+    margin: 0 auto;
+    height: 35vh;
   }
 
   .details {
@@ -1057,22 +1068,6 @@ textarea::placeholder {
     width: 30%;
   }
 
-  .ll > img {
-    width: 3.3vw;
-  }
-
-  .headert > img {
-    width: 1.7vw;
-    height: 1.7vw;
-    align-self: center;
-    margin: 0 0 0 20px;
-  }
-
-  .abt-icons > li > a > img {
-    width: 1.66vw;
-    height: 1.66vw;
-  }
-
   .buttonr {
     background-color: #fff;
     border: 1px solid #6070ff;
@@ -1251,7 +1246,6 @@ textarea::placeholder {
     font-size: 1.5vw;
   }
 
-  /* desktop popup begins */
   .middle-section1 {
     display: flex;
     flex-direction: column;
@@ -1286,12 +1280,9 @@ textarea::placeholder {
     font-weight: bold;
     font-size: 32px;
     line-height: 44px;
-    margin: 15px;
-    margin-right: 10px;
-    margin-left: 70px;
-    margin-bottom: 20px;
+    margin: 2% auto;
     border: 1px solid black;
-    width: 80vw;
+    width: 90%;
     min-height: max-content;
     border-radius: 12px;
     padding: 16px;
@@ -1305,7 +1296,6 @@ textarea::placeholder {
     line-height: 1.9vw;
     color: #344563;
     padding-bottom: 20px;
-    width: 54vw;
   }
 
   .work-lang {
@@ -1321,9 +1311,6 @@ textarea::placeholder {
     align-items: center;
     padding-left: 0;
     gap: 3%;
-
-    /* margin-top: 16px;
-  margin-bottom: 16px; */
     width: 19.6vw;
     height: 13px;
     justify-content: space-around;
@@ -1340,7 +1327,7 @@ textarea::placeholder {
   }
 
   .see-pop > .press {
-    width: 150px;
+    min-width: 155px;
     height: 48px;
     display: flex;
     flex-direction: row;

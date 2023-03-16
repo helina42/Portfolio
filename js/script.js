@@ -125,8 +125,8 @@ const cards = [
   },
 ];
 function showProject() {
-  const projectCards = document.querySelector('#card-work');
-  // eslint-disable-next-line no-plusplus
+  const projectCards = document.querySelector('#middle-content');
+
   for (let i = 0; i < cards.length; i++) {
     projectCards.innerHTML += `<div class="card">
     <div class="sidep">
@@ -181,22 +181,24 @@ function showProject() {
   }
   projectCards.appendChild();
 }
-// eslint-disable-next-line no-unused-vars
-// function addBlur() {
-//   document.body.classList.add('blur');
-// }
 
-// function removeBlur() {
-//   document.body.classList.remove('blur');
-// }
+function addBlur() {
+  const entireDoc = document.querySelector('.entire');
+  entireDoc.classList.add('blur');
+}
+
+function removeBlur() {
+  const entireDoc = document.querySelector('.entire');
+  entireDoc.classList.remove('blur');
+}
 
 function togglemobilepopup() {
   const mobilePopup = document.querySelector('.close');
   mobilePopup.classList.toggle('hidden');
-  // removeBlur();
+  removeBlur();
   window.location.reload();
 }
-// eslint-disable-next-line no-unused-vars
+
 function popwork(id) {
   const mobilePopup = document.querySelector('#card-work');
   mobilePopup.innerHTML = `<div class ="close" >
@@ -275,9 +277,8 @@ function popwork(id) {
   </div >
   </div>
   `;
-  mobilePopup.appendChild();
+
   mobilePopup.classList.toggle('hidden');
-  // eslint-disable-next-line no-undef
-  hidecontent();
-  // addBlur();
+
+  addBlur();
 }

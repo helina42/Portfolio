@@ -56,7 +56,6 @@ body {
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 20px;
-  border: 1px solid black;
   width: 94%;
   height: fit-content;
   min-height: 94%;
@@ -67,11 +66,10 @@ body {
 
 .see-pop {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-content: center;
   flex-direction: row;
-  width: 90%;
-  gap: 20%;
+  gap: 5%;
   padding-top: 20px;
 }
 
@@ -127,16 +125,17 @@ a {
 }
 
 #titlew {
-  font-size: 1.5em;
-  font-style: bold;
-  font-weight: 900;
   display: flex;
   align-items: center;
   color: #172b4d;
   width: 100%;
   margin: 10px 10px 0 0;
   padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 45px;
+  line-height: 44px;
 }
+
 
 .langw {
   font-style: normal;
@@ -225,6 +224,10 @@ a {
   background-repeat: no-repeat;
   padding: 20px;
   border-radius: 1px 1px 1px 70px;
+}
+
+#mob {
+  width: 100%;
 }
 
 .hambruger {
@@ -420,9 +423,9 @@ li {
 
 .spec {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 16px;
-  color: #4d5666;
+  color: #7a869a;
 }
 
 .lang {
@@ -448,6 +451,7 @@ li {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  padding: 4px;
 }
 
 .button {
@@ -1281,7 +1285,6 @@ body > .blur {
     font-size: 32px;
     line-height: 44px;
     margin: 2% auto;
-    border: 1px solid black;
     width: 90%;
     min-height: max-content;
     border-radius: 12px;

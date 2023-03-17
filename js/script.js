@@ -1,11 +1,11 @@
-/* eslint-disable no-undef */
+
 function popmenu() {
   const mobileMenu = document.querySelector('#popup');
   mobileMenu.classList.toggle('hidden');
 }
 const cards = [
   {
-    id: 0,
+    i#: 0,
     name: 'Tonic',
     image: './Work/Tonic.png',
     imaged: './Work/1.png',
@@ -128,7 +128,7 @@ const cards = [
 function showProject() {
   const projectCards = document.querySelector('#middle-content');
 
-  for (let i = 0; i < cards.length; i++) {
+  for (let i = 0; i < cards.length; i+) {
     projectCards.innerHTML += `<div class="card">
     <div class="sidep">
   <img class="tonic-c" alt= " ${cards[i].alt}" src="${cards[i].image}">
@@ -197,7 +197,7 @@ function togglemobilepopup() {
   const mobilePopup = document.querySelector('.close');
   mobilePopup.classList.toggle('hidden');
   removeBlur();
-  window.location.reload();
+ 
 }
 
 function popwork(id) {
@@ -311,7 +311,7 @@ function ValidateEmail() {
     const form = document.querySelector('#form');
     const userEmail = document.getElementById('email').value;
     const errmsg = document.querySelector('#error');
-    const letters = /[A-Z]/;
+    const letters = /[a-z]/;
 
     if (userEmail.match(letters)) {
       event.preventDefault();

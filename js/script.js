@@ -1,5 +1,4 @@
-// const { Action } = require('argparse');
-
+/* eslint-disable no-undef */
 function popmenu() {
   const mobileMenu = document.querySelector('#popup');
   mobileMenu.classList.toggle('hidden');

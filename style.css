@@ -160,6 +160,7 @@ a {
 .work > p {
   margin: 0;
   padding: 0;
+  padding-top: 4vw;
 }
 
 .detailsw {
@@ -332,7 +333,7 @@ a {
 .connect {
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 3.9vw;
   color: #7f8cff;
   margin-left: 16px;
   margin-bottom: 10px;
@@ -396,7 +397,7 @@ li {
 
 .side-pop {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 5px;
   display: flex;
   justify-content: center;
 }
@@ -699,13 +700,19 @@ body > .blur {
     display: flex;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1vw;
     justify-content: space-between;
     color: #6070ff;
     gap: 0;
     min-width: 375px;
     background-color: #fff;
     width: 100%;
+  }
+
+  .toolbar h2 {
+    margin-left: 5.3vw;
+    color: #6070ff;
+    white-space: nowrap;
   }
 
   .toolbar p {
@@ -741,7 +748,7 @@ body > .blur {
   .header {
     font-style: bold;
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 3.3vw;
     display: flex;
     align-items: flex-start;
     color: #172b4d;
@@ -756,10 +763,10 @@ body > .blur {
     color: #344563;
     width: 100%;
     margin: 1.66vw 0 1.66vw 0;
+    font-size: 1.4vw;
   }
 
   .info > p {
-    font-size: 1.6vw;
     padding: 0;
     margin: 0;
   }
@@ -797,7 +804,7 @@ body > .blur {
   }
 
   .vectorb a {
-    color: #0f27ff;
+    color: #344563;
   }
 
   .sidep {
@@ -901,6 +908,31 @@ body > .blur {
     padding: 0;
   }
 
+  .spec > p {
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 16px;
+    color: #6b778c;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hcj p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding: 17px;
+  }
+
+  #contact > div > p {
+    margin: 0 25vw 8px 25vw;
+    text-align: center;
+    height: fit-content;
+  }
+
   .spec {
     font-weight: 600;
     font-size: 17px;
@@ -926,10 +958,6 @@ body > .blur {
     padding-right: 7px;
     display: flex;
     margin: 3px;
-  }
-
-  .hcj p {
-    margin: 0;
   }
 
   .see {
@@ -1045,7 +1073,7 @@ body > .blur {
   .abt {
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 2.7vw;
     display: flex;
     align-items: center;
     color: #172b4d;
@@ -1059,7 +1087,7 @@ body > .blur {
   .info-abt {
     font-style: normal;
     font-weight: 400;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     color: #344563;
     width: 90%;
     margin-left: 0;
@@ -1085,16 +1113,16 @@ body > .blur {
     font-size: 1.25vw;
     font-weight: 510;
     color: #396df2;
-    padding: 5px;
+    padding: 31px;
     border-radius: 8px;
     box-sizing: border-box;
-    width: 11.25vw;
-    height: px;
+    width: 12.25vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 0;
     transition-duration: 0.4s;
+    height: 3.3vw;
   }
 
   .buttonr:hover {
@@ -1105,22 +1133,21 @@ body > .blur {
   .contact-head {
     align-items: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 3.3vw;
     line-height: 52px;
     margin-top: 142px;
   }
 
   .contact-info {
-    width: 569px;
-    height: 102px;
+    width: 41.4vw;
+    height: 7vw;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.4vw;
+    line-height: 43px;
     color: #fff;
     margin: 0;
     padding: 0;
-    margin-left: 56px;
-    margin-right: 56px;
+    text-align: center;
   }
 
   .form {
@@ -1141,6 +1168,20 @@ body > .blur {
     background-position: absolute;
     background-size: 100%;
     width: 100%;
+  }
+
+  .connecth {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    color: #7f8cff;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  #Portfolio > div > ul > li > a > img {
+    width: 1vw;
+    height: 1vw;
   }
 
   .formcenter {
@@ -1178,7 +1219,7 @@ body > .blur {
     height: 53px;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1vw;
     line-height: 20px;
     font-family: "Poppins", sans-serif;
     border-radius: 0;
@@ -1202,15 +1243,15 @@ body > .blur {
 
   .contact-button {
     font-family: "Poppins", sans-serif;
-    padding: 12px 16px;
     background: #fff;
     border-radius: 8px;
     border: none;
     color: #0f27ff;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.3vw;
     line-height: 24px;
+    padding: 20px;
   }
 
   .btnsize {
@@ -1228,6 +1269,11 @@ body > .blur {
     background: #2230d2;
     border-radius: 12px;
     color: #fff;
+  }
+
+  #about > div.sidea > ul > li > a > img {
+    width: 1.25vw;
+    height: 1.4vw;
   }
 
   .languages {
@@ -1295,6 +1341,13 @@ body > .blur {
     border-radius: 12px;
     padding: 16px;
     zoom: 0;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
   }
 
   .work {

@@ -286,6 +286,7 @@ function popwork(id) {
 const inputName = document.getElementById('name');
 const inputEmail = document.getElementById('email');
 const textarea = document.getElementById('text-msg');
+
 function storeData() {
   const info = {
     name: inputName.value,
@@ -296,14 +297,6 @@ function storeData() {
 }
 form.addEventListener('input', storeData);
 const savedData = JSON.parse(localStorage.getItem('info'));
-window.addEventListener('load', () => {
-  if (savedData) {
-    inputName.value = savedData.name;
-    inputEmail.value = savedData.email;
-    textarea.value = savedData.message;
-  }
-  return true;
-});
 function ValidateEmail() {
   form.addEventListener('submit', (event) => {
     const form = document.querySelector('#form');

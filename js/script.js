@@ -294,6 +294,14 @@ function storeData() {
     message: textarea.value,
   };
   window.localStorage.setItem('info', JSON.stringify(info));
+  window.addEventListener('load', () => {
+  if (savedData) {
+    inputName.value = savedData.name;
+    inputEmail.value = savedData.email;
+    textarea.value = savedData.message;
+  }
+  return true;
+});
 }
 form.addEventListener('input', storeData);
 const savedData = JSON.parse(localStorage.getItem('info'));

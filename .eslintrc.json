@@ -11,6 +11,7 @@
     },
     "extends": ["airbnb-base"],
     "rules": {
+      "no-alert":"off",
       "no-plusplus":"off",
       "no-unused-vars":"off",
       "no-shadow": "off",
